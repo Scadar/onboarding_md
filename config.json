@@ -1,6 +1,6 @@
 {
   "test": 123,
-  "items": [
+  "routes": [
     {
       "url": ["/marketplace/create", "/marketplace/{id}"],
       "md": "marketplace/create.txt"
