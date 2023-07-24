@@ -1,17 +1,26 @@
 {
-  "test": 123,
   "routes": [
     {
-      "url": ["/marketplace/create", "/marketplace/{id}"],
-      "md": "marketplace/create.txt"
+      "id": "test_id",
+      "path": ["/marketplace/create", "/marketplace/{id}"],
+      "filePath": "/marketplace/create.txt"
     },
     {
-      "url": "/call-tracking/{id}",
-      "md": "/callTracking/numbers.txt"
+      "path": "/call-tracking/{id}",
+      "filePath": "/callTracking/numbers.txt"
     },
     {
-      "url": "/call-tracking/rules/step",
-      "md": "/callTracking/rules/step1.txt"
+      "path": "/call-tracking/rules/step",
+      "filePath": "/callTracking/rules/step1.txt"
+    },
+    {
+      "regExp": "^/marketplace/(-?\\d+)$",
+      "filePath": "/callTracking/rules/step1.txt"
+    },
+    {
+      "path": "/qwe",
+      "filePath": "/callTracking/rules/step1.txt",
+      "exact": true
     }
   ]
 }
