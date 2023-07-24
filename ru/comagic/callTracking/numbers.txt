@@ -1,0 +1,37 @@
+<YoutubeIframeVideo
+src="https://www.youtube.com/embed/nVQ-Q4maz1s"
+width="372"
+height="180"
+>
+<Image
+src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tfGVufDB8fDB8fHww&w=1000&q=80"
+width="372"
+height="180"
+alt="test"
+/>
+</YoutubeIframeVideo>
+<Container my="16px">
+<Text>Правила определяют механизм подмены номеров на сайте: количество номеров коллтрекинга, условия их показа и переадресация звонков на эти номера.</Text>
+</Container>
+<Container my="16px">
+<Text>В названии правила удобно указать сайт, площадку или сегмент посетителей, на который оно настроено.</Text>
+</Container>
+<SubTitle>Динамический коллтрекинг</SubTitle>
+<Container mt="8px" mb="16px">
+<Text>Связывает звонки с сессиями конкретных пользователей, получая максимум информации о звонящих.</Text>
+</Container>
+<Image
+src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+width="372"
+height="196"
+alt="test"
+/>
+<Container my="16px">
+<Text>Каждый посетитель видит номер телефона, который в этот момент демонстрируется только ему.</Text>
+</Container>
+<Container my="16px" isFilled>
+<Text>Рекомендуем настроить динамический коллтрекинг, который будет отслеживать всех посетителей</Text>
+</Container>
+<Container my="16px">
+<Text>Если необходимо отслеживать только определенные каналы и источники, выберите их из списка. Также вы можете создать свой собственный рекламный источник или использовать ручную настройку для тонкой сегментации трафика.</Text>
+</Container>
