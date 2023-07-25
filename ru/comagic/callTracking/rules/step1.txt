@@ -10,21 +10,14 @@ height="180"
 alt="test"
 />
 </YoutubeIframeVideo>
-<ol>
-  <li>Coffee</li>
-  <li>Tea
-    <ul>
-      <li>Black tea</li>
-      <li>Green tea
-        <ul>
-          <li>China</li>
-          <li>Africa</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Milk</li>
-</ol>
+1. List item
+2. qwe
+3. asd
+ - qweasd
+ - qweasd
+     - asdewq
+     - asdzxc
+4. List item
 <Container my="16px">
 <Text>Правила определяют механизм подмены номеров на сайте: количество номеров коллтрекинга, условия их показа и переадресация звонков на эти номера.</Text>
 </Container>
