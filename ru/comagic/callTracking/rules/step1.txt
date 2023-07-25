@@ -10,21 +10,21 @@ height="180"
 alt="test"
 />
 </YoutubeIframeVideo>
-<List component="ol" paddingLeft="0">
+<ol paddingLeft="0">
   <li>Coffee</li>
   <li>Tea
-    <List>
+    <ul>
       <li>Black tea</li>
       <li>Green tea
-        <List type="square">
+        <ul type="square">
           <li>China</li>
           <li>Africa</li>
-        </List>
+        </ul>
       </li>
-    </List>
+    </ul>
   </li>
   <li>Milk</li>
-</List>
+</ol>
 <Container my="16px">
 <Text>Правила определяют механизм подмены номеров на сайте: количество номеров коллтрекинга, условия их показа и переадресация звонков на эти номера.</Text>
 </Container>
