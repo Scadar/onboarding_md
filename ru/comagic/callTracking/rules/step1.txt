@@ -10,13 +10,13 @@ height="180"
 alt="test"
 />
 </YoutubeIframeVideo>
-<ol paddingLeft="0">
+<ol>
   <li>Coffee</li>
   <li>Tea
     <ul>
       <li>Black tea</li>
       <li>Green tea
-        <ul type="square">
+        <ul>
           <li>China</li>
           <li>Africa</li>
         </ul>
