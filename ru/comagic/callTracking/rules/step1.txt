@@ -10,7 +10,7 @@ height="180"
 alt="test"
 />
 </YoutubeIframeVideo>
-<ul>
+<ul component="ol" paddingLeft="0">
   <li>Coffee</li>
   <li>Tea
     <ul>
