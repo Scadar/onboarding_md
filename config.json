@@ -16,6 +16,7 @@
     {
       "regExp": "^/marketplace/(-?\\d+)$",
       "filePath": "/callTracking/rules/step1.txt"
+    },
     {
       "path": "/qwe",
       "filePath": "/callTracking/rules/step1.txt",
