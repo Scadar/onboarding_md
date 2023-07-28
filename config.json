@@ -25,6 +25,11 @@
     {
       "path": "/summary_analytics/:id",
       "filePath": "/analytics/summary_analytics.txt"
+    },
+    {
+      "path": "/ad_analytics/:id",
+      "filePath": "/analytics/summary_analytics.txt",
+      "style": "megafon"
     }
   ]
 }
