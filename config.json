@@ -23,7 +23,7 @@
       "exact": true
     },
     {
-      "path": "summary_analytics/:id",
+      "path": "/summary_analytics/:id",
       "filePath": "/analytics/summary_analytics.txt"
     }
   ]
