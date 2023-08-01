@@ -2,7 +2,10 @@
   "routes": [
     {
       "id": "test_id",
-      "path": ["/marketplace/create", "/marketplace/{id}"],
+      "path": [
+        "/marketplace/create",
+        "/marketplace/{id}"
+      ],
       "filePath": "/marketplace/create.txt"
     },
     {
@@ -24,12 +27,68 @@
     },
     {
       "path": "/summary_analytics/:id",
-      "filePath": "/analytics/summary_analytics.txt"
+      "filePath": "/analytics/summary_analytics.txt",
+      "conditions": {
+        "and": [
+          {
+            "parameter": "app_id",
+            "operator": "=",
+            "value": 4735
+          },
+          {
+            "parameter": "lang",
+            "operator": "=",
+            "value": "ru"
+          },
+          {
+            "or": [
+              {
+                "parameter": "component",
+                "operator": "include",
+                "value": "operation"
+              },
+              {
+                "parameter": "component",
+                "operator": "include",
+                "value": "asdqwe"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "path": "/ad_analytics/:id",
       "filePath": "/analytics/summary_analytics.txt",
-      "style": "megafon"
+      "style": "megafon",
+      "conditions": {
+        "and": [
+          {
+            "parameter": "app_id",
+            "operator": "=",
+            "value": 4735
+          },
+          {
+            "parameter": "lang",
+            "operator": "=",
+            "value": "en"
+          },
+          {
+            "or": [
+              {
+                "parameter": "component",
+                "operator": "include",
+                "value": "operation"
+              },
+              {
+                "parameter": "component",
+                "operator": "include",
+                "value": "asdqwe"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
