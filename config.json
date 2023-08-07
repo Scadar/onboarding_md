@@ -5,7 +5,7 @@
       "filePath": "/sites/main.txt"
     },
     {
-      "pattern": "/replacement-phone-blocks/:id",
+      "pattern": "/replacement-phone-blocks/:id(\\d+|-\\d+)",
       "filePath": "/replacement-phone-blocks/main.txt"
     },
     {
