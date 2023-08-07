@@ -5,6 +5,10 @@
       "filePath": "/sites/main.txt"
     },
     {
+      "pattern": "/replacement-phone-blocks/:id",
+      "filePath": "/replacement-phone-blocks/main.txt"
+    },
+    {
       "id": "test_id",
       "pattern": "/marketplace/(.*)",
       "filePath": "/callTracking/rules/step1.txt"
