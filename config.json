@@ -6,7 +6,11 @@
     },
     {
       "pattern": "/call_tracking/replacement-phone-blocks/:id(\\d+|-\\d+)",
-      "filePath": "/replacement-phone-blocks/main.txt"
+      "filePath": "/call-tracking/replacement-phone-blocks/main.txt"
+    },
+    {
+      "pattern": "/call_tracking/rules/:id(\\d+|-\\d+)#step1",
+      "filePath": "/call-tracking/rules/step1.txt"
     },
     {
       "id": "test_id",

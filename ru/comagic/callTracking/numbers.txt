@@ -1,3 +1,0 @@
-<Container my="16px" isFilled>
-<Text>NUMBERS</Text>
-</Container>
