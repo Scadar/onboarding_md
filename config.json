@@ -2,18 +2,15 @@
   "routes": [
     {
       "id": "test_id",
-      "path": [
-        "/marketplace/create",
-        "/marketplace/{id}"
-      ],
+      "pattern": "/marketplace/*",
       "filePath": "/marketplace/create.txt"
     },
     {
-      "path": "/call-tracking/{id}",
+      "pattern": "/call-tracking/:type(birds|fish)",
       "filePath": "/callTracking/numbers.txt"
     },
     {
-      "path": "/call-tracking/rules/step",
+      "pattern": "/call-tracking/rules/step",
       "filePath": "/callTracking/rules/step1.txt"
     },
     {
@@ -21,12 +18,12 @@
       "filePath": "/callTracking/rules/step1.txt"
     },
     {
-      "path": "/qwe",
+      "pattern": "/qwe",
       "filePath": "/callTracking/rules/step1.txt",
       "exact": true
     },
     {
-      "path": "/summary_analytics/:id",
+      "pattern": "/summary_analytics/:id",
       "filePath": "/analytics/summary_analytics.txt",
       "conditions": {
         "and": [
@@ -58,7 +55,7 @@
       }
     },
     {
-      "path": "/ad_analytics/:id",
+      "pattern": "/ad_analytics/:id",
       "filePath": "/analytics/summary_analytics.txt",
       "style": "megafon",
       "conditions": {
