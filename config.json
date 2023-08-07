@@ -2,7 +2,7 @@
   "routes": [
     {
       "id": "test_id",
-      "pattern": "/marketplace/*",
+      "pattern": "/marketplace/(.*)",
       "filePath": "/marketplace/create.txt"
     },
     {
