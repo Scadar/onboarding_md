@@ -9,7 +9,7 @@
       "filePath": "/call-tracking/replacement-phone-blocks/main.txt"
     },
     {
-      "pattern": "/call_tracking/rules/:id(\\d+|-\\d+)#step1",
+      "pattern": "/call_tracking/rules/:id#step1",
       "filePath": "/call-tracking/rules/step1.txt"
     },
     {
