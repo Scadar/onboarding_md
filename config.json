@@ -5,7 +5,7 @@
       "filePath": "/sites/main.txt"
     },
     {
-      "pattern": "/call_tracking/replacement-phone-blocks/:id(\\d+|-\\d+)",
+      "pattern": "/call_tracking/replacement-phone-blocks/:id",
       "filePath": "/call-tracking/replacement-phone-blocks/main.txt"
     },
     {
@@ -13,91 +13,12 @@
       "filePath": "/call-tracking/rules/step1.txt"
     },
     {
-      "id": "test_id",
-      "pattern": "/marketplace/(.*)",
-      "filePath": "/callTracking/rules/step1.txt"
+      "pattern": "/call_tracking/rules/:id#step2_dynamic",
+      "filePath": "/call-tracking/rules/step2_dynamic.txt"
     },
     {
-      "pattern": "/call-tracking/:type(birds|fish)",
-      "filePath": "/callTracking/numbers.txt"
-    },
-    {
-      "pattern": "/call-tracking/rules/step",
-      "filePath": "/callTracking/rules/step1.txt"
-    },
-    {
-      "regExp": "^/marketplace/(-?\\d+)$",
-      "filePath": "/callTracking/rules/step1.txt"
-    },
-    {
-      "pattern": "/qwe",
-      "filePath": "/callTracking/rules/step1.txt",
-      "exact": true
-    },
-    {
-      "pattern": "/summary_analytics/:id",
-      "filePath": "/analytics/summary_analytics.txt",
-      "conditions": {
-        "and": [
-          {
-            "parameter": "app_id",
-            "operator": "=",
-            "value": 4735
-          },
-          {
-            "parameter": "lang",
-            "operator": "=",
-            "value": "ru"
-          },
-          {
-            "or": [
-              {
-                "parameter": "components",
-                "operator": "include",
-                "value": "operation"
-              },
-              {
-                "parameter": "components",
-                "operator": "include",
-                "value": "asdqwe"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "pattern": "/ad_analytics/:id",
-      "filePath": "/analytics/summary_analytics.txt",
-      "style": "megafon",
-      "conditions": {
-        "and": [
-          {
-            "parameter": "app_id",
-            "operator": "=",
-            "value": 4735
-          },
-          {
-            "parameter": "lang",
-            "operator": "=",
-            "value": "en"
-          },
-          {
-            "or": [
-              {
-                "parameter": "components",
-                "operator": "include",
-                "value": "operation"
-              },
-              {
-                "parameter": "components",
-                "operator": "include",
-                "value": "asdqwe"
-              }
-            ]
-          }
-        ]
-      }
+      "pattern": "/call_tracking/rules/:id#step3_dynamic",
+      "filePath": "/call-tracking/rules/step3_dynamic.txt"
     }
   ]
 }
